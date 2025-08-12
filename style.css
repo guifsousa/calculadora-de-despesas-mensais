@@ -1,0 +1,87 @@
+body{
+    padding: 0 auto;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+    background-image: url(bg.jpg);
+}
+
+
+h2{
+    text-align: center;
+    color: white;
+    opacity: 0.5;
+    font-family: 'Inter';
+    line-height: 100%;
+    font-size: 1.3rem;
+}
+
+
+main{
+    max-width: 23rem;
+    width: 90%;
+    margin: 5rem auto; 
+    padding: 1.0rem;
+    transform: scale(1.4); /* Aumenta tudo dentro da caixa */
+    transform-origin: top center;
+    border: solid rgb(73, 73, 99);; 
+    border-radius: 0.887rem;
+    background-color: rgb(73, 73, 99);
+   
+}
+
+input{
+    all: unset;
+    border: 2px solid rgb(59, 59, 79);
+    border-radius: 0.425rem;
+    padding: 0.350rem;
+    font-size: 0.875rem;
+    background-color: #7a78788c;
+}
+
+#btn, #btn2{
+    width: 60%;
+    border:0;
+    padding: 0.675rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.12px;
+   
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza horizontalmente */
+  gap: 10px; /* Espaço entre os botões */
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#btn:hover{
+    color: rgb(175, 220, 175);
+    transform: translateY(-2px);/*move um elemento verticalmente para cima em 2 pixels.
+    (valor negativo-para cima e valor positivo - para baixo)*/
+    box-shadow: 0 5px 1rem rgba(255, 248, 107, 0.2);
+}
+
+#btn2:hover{
+    color: rgb(224, 162, 162);
+    transform: translateY(-2px);/*move um elemento verticalmente para cima em 2 pixels.
+    (valor negativo-para cima e valor positivo - para baixo)*/
+    box-shadow: 0 5px 1rem rgba(255, 248, 107, 0.2);
+}
+
+#divOutput{
+    color: azure;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 1rem;
+    border: solid rgba(0, 0, 0, 0.4);;
+    border-radius: 0.4rem;
+    margin: 1rem;
+    border-left: 2px solid rgb(114, 123, 156);
+    display: none;
+}
+
+

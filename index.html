@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Despesas Mensais</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h2 class="title">Calculadora de despesas mensais</h2>
+        
+        
+        <label> <strong style="color: white; opacity: 0.5;">Descrição da Conta:</strong>
+            <input type="text" id="inDescricao">
+        </label> <br> <br>
+
+        <label> <strong style="color: white; opacity: 0.5;" >Valor a pagar(R$):</strong>
+            <input type="text" id="inValor">
+        </label> <br> <br>
+
+        <div class="buttons">
+            <input type="button"id="btn" value="Registrar conta"> 
+            <input type="button"id="btn2" value="Limpar formulário">
+        </div>
+        
+        <div id="divOutput">
+            <p>Registro de Contas:</p>
+            <pre id="outListaCompras"></pre>
+            <pre id="outTotal"></pre>
+        </div>
+
+        <script src="script.js"></script>
+
+    </main>
+
+</body>
+</html>
